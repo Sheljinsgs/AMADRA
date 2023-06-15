@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vehicle</title>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" >
+        <link rel="stylesheet" href="vehicle.css">
+    </head>
+    <body style="background-image: url(BG.PNG);">
+        <center>
+            <div>
+                <h1>Enter the vehicle Details</h1><br><br><br>
+                <label>Chase No :</label>
+                <input type="text" id="chase" placeholder="Enter the value"><br><br><br>
+                <label>Vehicle Model :</label>
+                <select id="vehi">
+                    <option value="0">Select</option>
+                    <option value="1">Automatic</option>
+                    <option value="2">Mannual</option>
+                    <option value="3">Ac</option>
+                    <option value="4">Non-AC</option>
+                </select>
+                <br><br><br>
+                <label>Condition :</label>
+                <select id="con">
+                    <option value="0">select</option>
+                    <option value="1">Excellent</option>
+                    <option value="2">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="4">Okay</option>
+                    <option value="5">Bad</option>
+                    <option value="6">Very Bad</option>
+                </select>
+                <br><br><br>
+                <button type="button" onclick="fuc()">Calculate</button>
+                <br><br><br>
+                <label>Estimate Amount :</label>
+                <input type="number" readonly id="amt">
+
+            </div>
+
+        </center>
+        <script>
+            function fuc(){
+    alert("Currently Working on this ...it available soon");
+}
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Building Details</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="buildingdetails.css">
+    </head>
+    <body style="background-image: url(BG.PNG);">
+        <center>
+        <h1>Enter the building Details</h1>
+        <div>
+            <form>
+                <label for="Area">Area :</label>
+                <select name="ar" id="area">
+                    <option value="0">select</option>
+                    <option value="1">sq.feet</option>
+                    <option value="2">Km</option>
+                </select><br><br><br>
+                <label for="land">Landeoroy :</label>
+                <input type="text" id="land" placeholder="Enter the value"><br><br><br>
+                <label for="build">Building Value :</label>
+                <input type="text" id="build" placeholder="Enter the value"><br><br><br>
+                <button type="button" onclick="func()"> Calculate </button><br><br><br>
+                <label>Estimated Amount :</label>
+                <input type="number" readonly id="amt" placeholder="Enter the value">
+            </form>
+
+        </div>
+        <script>
+            function func(){
+    alert("We are currently Working on this....it will available soon");
+}
+        </script>
+    </center>
+    </body>
+</html>
